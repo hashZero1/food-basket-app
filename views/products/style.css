@@ -1,0 +1,101 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-image:linear-gradient(rgba(24, 24, 24, 0.089),rgba(19, 19, 19, 0.164)), url(pexels.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.sContainer{
+    background-color: #dedede5e;
+    margin: 20px;
+    padding: 10px 40px;
+    padding-bottom: 40px;
+    border-radius: 2em;
+    box-shadow: 10px 10px 15px 2px #3f3f3f2d;
+}
+h1{
+    text-transform: capitalize;
+    color: rgb(34, 34, 34);
+    text-align: center;
+    background-color: #eeeeee5e;
+    border-radius: 1em;
+    padding: 0.4em 10em;
+    box-shadow: 10px 10px 15px 2px #3f3f3f15;
+}
+
+h2{
+    text-transform: capitalize;
+    color: rgb(38, 38, 38);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+}
+#linkB{
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+    font-size: 18px;
+    background-color: rgb(177, 23, 23);
+    padding: 10px 20px;
+    margin: 5px;
+    color: aliceblue;
+    border-radius: 2em;
+}
+#linkB:hover{
+    background-color: rgb(116, 7, 7);
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:8px;
+    font-size: 18px;
+    padding: 10px 40px;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    border-radius: 2em;
+    background-color: rgb(177, 23, 23);
+}
+Button:hover{
+    background-color: rgb(116, 7, 7);
+}
+ul{
+    margin-bottom: 30px;
+}
+ul li{
+    list-style:circle;
+    padding: 8px;    
+    font-size: 20px;
+    font-weight: 500;
+    transition: all 0.4s;
+    color: rgb(29, 29, 29);
+    margin-bottom: 6px;
+}
+ul li:hover{
+    background-color: rgba(121, 120, 120, 0.598);
+    border-radius: 2em;
+}
+input{
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 2em;
+    border: none;
+    text-transform: capitalize;
+}
+select{
+    padding: 10px 20px;
+    border-radius: 2em;
+    margin-left: 10px;
+}
+label{
+    font-size: 17px;
+    font-weight: 600;
+}

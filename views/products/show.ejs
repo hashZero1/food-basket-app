@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sContainer">
+            <h2><%= selected.name %> </h2>
+            <ul>
+                <li>Price:<%= selected.price %> </li>
+                <li>Category:<%= selected.category %> </li>
+            </ul>
+            <a href="/products" id="linkB">All Products</a>
+            <a href="/products/<%=selected._id%>/edit" id="linkB">Edit Product</a>
+            <form action="/products/<%=selected._id%>?_method=DELETE" method="POST">
+                <button>Delete</button>
+            </form> 
+        </div>
+        
+    </div>
+  
+</body>
+</html>
